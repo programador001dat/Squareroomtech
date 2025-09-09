@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+div.container-initial {
+    width: 100%;
+    background-color: black;
+    color: rgb(0, 0, 0);
+    height: auto;
+}
+div.banner {
+    height: 490px;
+    background-image: url("https://wallpapercave.com/wp/wp10724349.png");
+    background-size: cover;
+    background-position: center;
+}
+div.container-desktop {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    font-size: 18px;
+}
+div.container-form {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+div.container-form {
+    border-radius: 3px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+div.container-form input {
+    display: flex;
+    margin: auto;
+    padding: 8px;
+    width: 40%;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+div.container-form input:focus {
+    border-color: rgb(209, 45, 45);
+    box-shadow: 0 0 5px rgb(209, 45, 45);
+    outline: none;
+}
+div.container-form button {
+    margin: 20px 10px 20px 10px;
+    padding: 6px;
+    font-size: 13px;
+    max-width: fit-content;
+    cursor: pointer;   
+    background-color: cadetblue;
+    border-radius: 3px;
+}
+button:hover {
+    background-color:rgb(209, 45, 45);
+    border-radius: 3px;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+button a {
+    text-decoration: none;
+    color: greenyellow;
+}
+div.renderezide {
+    line-height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: #00ffee;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(225, 13, 13);
+    color: #00ffee;
+    text-align: center;
+    margin-top: 150px;
+}
+footer p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
