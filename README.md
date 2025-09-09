@@ -17,4 +17,5 @@ Curiosidades:
   . Express
   . Dotenv
   . body-parser
+  . MySQL
 
