@@ -25,3 +25,5 @@ Curiosidades:
  . Dotenv
  . body-parser
  . MySQL
+
+Lembre-se de criar um arquivo .env para rodar o projeto
