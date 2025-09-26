@@ -4,11 +4,12 @@ const mysql = require("../config/mysql"); // chamando as configurações do MySQ
 
 const User = {
     findByUsername: (username, callback) => {
-        const query = "SELECT * FROM user WHERE username = ?"; // Fazer uma QUERY
+        const query = "SELECT * FROM table_? WHERE column? = ?"; // Fazer uma QUERY
         mysql.query(query, [username], callback);
     }
 };
 
 
 // Exportando para app.js
+
 module.exports = User;
