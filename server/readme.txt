@@ -19,7 +19,6 @@ Curiosidades:
   . Um mini Blog sobre o desenvolvedor da squareroomtech
 => Separamos o endereço do codigo pricipal, para segurança da maquina.
 
-
 => Dependencias/Tecnologias:
  . Express
  . Dotenv
@@ -27,3 +26,14 @@ Curiosidades:
  . MySQL
 
 Lembre-se de criar um arquivo .env para rodar o projeto
+
+Lembre-se para versões antigas do MySQL o codigo pode não funcionar
+
+Verifique o metodo de autenticação do usuario no MySQL com:
+SELECT user, host, plugin FROM mysql.user WHERE user = 'usuario_teste';
+
+Altere para native com:
+ALTER USER 'usuario_teste'@'localhost' IDENTIFIED WITH mysql_native_password BY 'nova_senha';
+
+
+
